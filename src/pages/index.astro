@@ -30,22 +30,23 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="JOTIE kalkidan abera "
+					tagline="Formation en alternance délviée par ARINFO 25% du temps en formation, 75% en entreprise"
 					align="start"
-				>
+
+					<h1>  </h1>
+					<h5>  Je recherche une alternance pour renforcer mes compétences et contribuer à des projets concrets. Passionnée et motivée, je souhaite m'investir au sein d'une équipe dynamique.</h5>
+				
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Développeur</Pill>			
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Kalkidan Abera"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="../../public/assets/20231217_124837.jpg"
 				/>
 			</header>
 
@@ -55,58 +56,168 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<h2> Mes derniers projets pendant les cours </h2>
+					<p>Découvrez mes derniers projets réalisés pendant mes cours.</p>
 				</header>
 
-				<div class="gallery">
-					<Grid variant="offset">
-						{
-							projects.map((project) => (
-								<li>
-									<PortfolioPreview project={project} />
-								</li>
-							))
-						}
-					</Grid>
+				</div> 
+			<section class="continuer">
+				<div class="apple">
+				<h5> Apple page </h5>
+					</br>
+				<img
+					alt="Kalkidan Abera"
+					width="480"
+					height="620"
+					src="../../public/assets/apple-home-page-desktop-design.jpeg"
+				/>
 				</div>
+</br>
 
-				<div class="cta">
-					<CallToAction href="/work/">
-						View All
-						<Icon icon="arrow-right" size="1.2em" />
-					</CallToAction>
+				<div class="puppy">
+				<h5> puppy lovery pages</h5>
+				</br>
+				<img
+					alt="Kalkidan Abera"
+					width="480"
+					height="620"
+					src="../../public/assets/puppy-lovers-page-design(1)(1).png"
+				/>
+			</div>
+			</br>
+			<div class="netflix">
+				
+				<h5> Netflix </h5>
+	
+				</br>
+				<img
+					alt="Kalkidan Abera"
+					width="480"
+					height="620"
+					src="../../public/assets/Screenshot 2024-10-17 185327.png"
+				/>
+			
+			</div>
+</section>
+
+
+</br>
+</br>
+</br>
+</br>
+
+<div class="title">
+<h> Ce projet Apple Product Showcase propose un affichage dynamique des produits Apple, intégrant des sections pour diverses catégories de produits et les dernières vidéos YouTube liées à Apple. Il présente les compétences en développement front-end avec React et en routage avec React Router. Le projet comprend une mise en page réactive pour un accès transparent sur tous les appareils et un design moderne qui encourage l'exploration des dernières offres d'Apple.</h>
+
+
+<h>Explorez la création de la page Puppy Lovers, mon premier projet de développement Web, présentant d'adorables images de chiots et des éléments ludiques. Ce site statique utilise un design réactif et Bootstrap pour une navigation facile, reflétant mes débuts dans le développement Web.</h>
+
+<h> Sur ce "projet Netflix Clone", je reproduis les fonctionnalités essentielles de la plateforme Netflix, notamment la navigation dynamique des films et le visionnage des bandes-annonces. Il présente des compétences en développement front-end avec React, en services backend utilisant Node.js et en API TMDb pour récupérer des données de film.</h>
+</div>
+
+</br>
+</br>
+</br>
+
+<section class="image">
+<h3> Logiciels </h3>
+			<div>
+			
+	<img
+					alt="Kalkidan Abera"
+					width="80"
+					height=""
+					src="../../public/assets/849d4286475e04155fd5f21861f16f53db95ac72.png"
+				/>
 				</div>
-			</section>
+<div>
+	<img
+					alt="Kalkidan Abera"
+					width="80"
+					height=""
+					src="../../public/assets/logo-2582747_1280.webp"
+				/>
 
-			<section class="section with-background bg-variant">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
-				</header>
+</div>
 
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
+		<div>
+	<img
+					alt="Kalkidan Abera"
+					width="80"
+					height=""
+					src="../../public/assets/Thumbnail-React-Native-Blog.webp"
+				/>
+
+</div>	
+
+
+<div>
+
+	<img
+					alt="Kalkidan Abera"
+					width="80"
+					height=""
+					src="../../public/assets/62045d5ed1151841a16c33fd_ImageAPI-Logoblue2-01.png"
+				/>
 				</div>
-			</section>
+	
+				<div>
+	<img
+					alt="Kalkidan Abera"
+					width="80"
+					height=""
+					src="../../public/assets/1_bc9pmTiyKR0WNPka2w3e0Q.png"
+				/>
+
+</div>
+</section>
+
+
+			
 		</main>
 
 		<ContactCTA />
 	</div>
 </BaseLayout>
 
+
 <style>
+
+.title{
+	    display: flex;
+		align-items: center;
+		gap: 13rem;
+		margin-left:90px;
+		margin-right:10px;
+}
+.continuer{
+display:flex;
+margin-left: 90px;
+gap: 5rem;
+align-items: center;
+}
+
+@media (min-width: 50em){
+.continuer img{
+
+	display: flex;
+	aspect-ratio: 2 / 3;
+	border-radius: 1.5rem;
+	object-fit: cover;	
+	margin-left:0px;
+
+}
+}
+.image {
+display:flex;
+margin-left: 90px;
+gap: 5rem;
+align-items: center;
+}
+
+
+
+
 	.hero {
 		display: flex;
 		flex-direction: column;
@@ -170,7 +281,7 @@ const projects = (await getCollection('work'))
 		top: 0;
 		transform: translateY(-75%) translateX(-50%);
 		background:
-			url('/assets/backgrounds/noise.png') top center/220px repeat,
+			url('../../public') top center/220px repeat,
 			var(--hero-bg) center center / var(--bg-gradient-size) no-repeat,
 			var(--gray-999);
 		background-blend-mode: overlay, normal, normal, normal;
@@ -221,6 +332,7 @@ const projects = (await getCollection('work'))
 
 		.gallery {
 			grid-area: gallery;
+			display:flex;
 		}
 
 		.cta {

@@ -2,7 +2,42 @@
 import Hero from '../components/Hero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
+<BaseLayout title=" CV Kalkidan Abera" description="404 Error — this page was not found">
 
-<BaseLayout title="Not Found" description="404 Error — this page was not found">
-	<Hero title="Page Not Found" tagline="Not found" />
+<div class="cv">
+<img
+					alt="cv"
+					width="980"
+					height="620"
+					src="../../public/assets/CV.png"
+				/>
+
+</div>
 </BaseLayout>
+
+<style>
+	.cv{
+		
+		
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+		justify-contents:center;
+		margin-left:300Px;
+	}
+	@media (min-width: 50em) {
+		.cv {
+			display: grid;
+			grid-template-columns: 1fr 30% 0fr;
+		}
+
+		.CV > :global(:first-child) {
+			grid-column-start: 2;
+		}
+	}
+
+	
+</style>

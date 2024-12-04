@@ -12,10 +12,12 @@ tags:
 ---
 
 ## Level-two heading
+	
 
+<!-- 
 > Tell me and I forget. Teach me and I remember. Involve me and I learn.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+<!-- Lorem ipsum dolor sit amet, <a href="../../../public/assets/backgrounds/puppy-lovers-page-design(1)(1).png">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare. -->
 
 Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
 
@@ -32,4 +34,4 @@ Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum qu
 #### Level-four heading
 
 - We noted this
-- And also this other point
+- And also this other point -->
